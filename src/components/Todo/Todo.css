@@ -1,0 +1,19 @@
+.todo{
+    display: flex;
+    width:300px;
+    justify-content: space-between;
+    font-family: cursive;
+    margin: 10px;
+    margin-left: -50px;
+}
+.todoCheck{
+    margin-top: 10px;
+    
+    
+}
+.todoX{
+    background-color: #282c34;
+    border: none;
+    color:white;
+    
+}

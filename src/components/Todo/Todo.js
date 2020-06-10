@@ -1,5 +1,5 @@
 import React from 'react'
-
+import './Todo.css'
 
 function Todo({todo, toggleComplete , removeTodo}){
     function handleCheckboxClick(){
@@ -11,8 +11,8 @@ function Todo({todo, toggleComplete , removeTodo}){
     }
 
     return(
-        <div style = {{display:"flex"}}>
-            <input type = "checkbox" onClick={handleCheckboxClick}/>
+        <div className='todo' >
+            <input className='todoCheck' type = "checkbox" onClick={handleCheckboxClick}/>
             <li
                 style={{
                     color:"white",
@@ -21,8 +21,9 @@ function Todo({todo, toggleComplete , removeTodo}){
             >
             {todo.task}
             </li>
-            <button onClick={handleRemoveClick}>X</button>
+            <button className='todoX'onClick={handleRemoveClick}>X</button>
         </div>
+
     )
 
 }
