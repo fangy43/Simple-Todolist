@@ -2,18 +2,32 @@
     display: flex;
     width:300px;
     justify-content: space-between;
-    font-family: cursive;
-    margin: 10px;
+    align-items: center;
     margin-left: -50px;
+    border-color: white;
+    border-width: 5px;
+    
+
+    
 }
 .todoCheck{
-    margin-top: 10px;
+    
+    height: 20px;
+    width: 20px;
+    background-color: #eee;
+    border-radius: 50px;
+    cursor: pointer;
     
     
 }
 .todoX{
     background-color: #282c34;
     border: none;
-    color:white;
+    color: red;
+    cursor: pointer;
     
+}
+
+li{
+   padding-top: 10px;
 }
