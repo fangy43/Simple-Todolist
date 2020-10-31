@@ -1,5 +1,4 @@
-# Sample Todo-List Application
-
- -for learning about React 
+# Sample Todo-List
+ - A Todo-list Application for learning about React 
  
 
